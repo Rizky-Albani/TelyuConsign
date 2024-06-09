@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">TelyuConsign</string>
+    <string name="search_text">Search in Telyu Consign</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_add">Sell Now!</string>
+    <string name="nav_transaction">Transaction</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="add_fragment">Add Fragment\n</string>
+    <string name="transaction_fragment">Transaction Fragment\n</string>
+    <string name="login_text">Login</string>
+    <string name="started_title">Hi Telyutizen</string>
+    <string name="started_sub_title">Nice to meet u, enjoy our app\nLogin if you already have an account.\nRegister to get started with the App</string>
+    <string name="ilustration_img">ilustration image\n</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_login">SIGN IN</string>
+    <string name="text_signUp">Sign Up</string>
+    <string name="text_detail_signUp">Welcome to Telyu Consign!</string>
+    <string name="text_signIn">Sign In</string>
+    <string name="text_detail_signIn">Welcome Back To Telyu Consign!</string>
+    <string name="bottom_signUp">Dengan menekan \"SIgn Up\", anda telah menyetujui</string>
+    <string name="skip_fornow">Skip for Now</string>
+    <string name="searchbar_hint">Search</string>
+    <string name="sign_in_text">Sign In</string>
+    <string name="google_login">Sign In with Google</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_have_account">Don`t have account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="or">OR</string>
+    <string name="skip_for_now">Skip for now</string>
+    <string name="fullname">Fullname</string>
+    <string name="email_address">Email Address</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password_reset">Password Reset</string>
+    <string name="we_will_send_you_a_link_to_reset_your_password">We will send you a link to reset your password</string>
+    <string name="submit">SUBMIT</string>
+    <string name="chat">Chat</string>
+    <string name="content_description_media">Descrption</string>
+    <string name="namaBarang">Asus ROG Flow X13</string>
+    <string name="desc_barang">RTX 4070 Ryzen 5 Gen 5 RAM 16GB SSD 1TB</string>
+    <string name="kondisiBarang">New</string>
+    <string name="hargaBarang">Rp. 10.000.000</string>
+    <string name="text_suggested_item">Suggested Item</string>
+    <string name="text_bedroom_item">Bedroom Item</string>
+    <string name="categori_1">Furniture</string>
+    <string name="text_categories">Categories</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="message">%1$s diklik!</string>
+    <string name="categori_2">Vehicle</string>
+    <string name="categori">Electronics</string>
+    <string name="categori_3">Kitchen</string>
+    <string name="categori_4">Sports</string>
+    <string name="namaBarangIp">Iphone 14</string>
+    <string name="desc_barang_ip">Storage 256GB A16 Bionic 6GB RAM</string>
+    <string name="hargaBarangIp">Rp. 18.999.000</string>
+    <string name="namaBarangMac">MacBook Pro 14 inch</string>
+    <string name="desc_barang_mac">M1 Pro 512GB SSD 16GB RAM</string>
+    <string name="hargaBarangMac">Rp. 26.999.000</string>
+    <string name="namaBarangRak">Rak Baju</string>
+    <string name="desc_barang_rak">Rak baju dua tingkat 150x110</string>
+    <string name="hargaBarangRak">Rp. 135.000</string>
+    <string name="namaBarangMeja">Meja Belajar</string>
+    <string name="desc_barang_meja">Meja Bejalajar dengan laci 100cm x 53.50cm x 76.5cm</string>
+    <string name="hargaBarang_meja">Rp. 450.000</string>
+    <string name="namaBarangKarpet">Karpet Busa</string>
+    <string name="desc_barang_karpet">Karpet dengan bantalan busa berukuran 210x150</string>
+    <string name="hargaBarangKarpet">Rp. 250.000</string>
+    <string name="select_category">Select Category</string>
+    <string name="categories">Categories</string>
+    <string name="password_min">Password minimum 8 character</string>
+    <string name="fill_but_signIn">Fill the form</string>
+    <string name="login_but_signIn">Login</string>
+    <string name="must_login">Login first to use chat!</string>
+    <string name="login">Login here!</string>
+    <string name="logout">Logout</string>
+    <string name="Profile">Profile</string>
+    <string name="sell_item">Sell Item</string>
+    <string name="item_name">Item Name</string>
+    <string name="preview_image_view">Preview image view</string>
+    <string name="choose_picture">Choose Picture</string>
+    <string name="description">Description</string>
+    <string name="location">Location</string>
+    <string name="price_rupiah">Price (Rupiah)</string>
+    <string name="use_item">Used</string>
+    <string name="new_item">New</string>
+    <string name="sell">Sell</string>
+    <string-array name="category_options">
+        <item>Electronic</item>
+        <item>Furniture</item>
+        <item>Kitchen</item>
+        <item>Vehicle</item>
+        <item>Sports</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="dummy_text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere rhoncus aliquam. Vivamus luctus velit rhoncus felis rhoncus, a convallis diam sollicitudin. Donec vitae magna varius, congue ante quis, semper dui. Integer lectus sapien, convallis a purus ac, aliquet posuere lacus. Nam sed mauris at sapien convallis venenatis. Nullam at gravida dolor. Fusce scelerisque, ante finibus faucibus dictum, sem erat dignissim mi, vel tincidunt ante nisi ac magna. Pellentesque vestibulum placerat sapien, eu fringilla mi sodales ac. Fusce mi diam, volutpat sit amet faucibus quis, suscipit ut urna. Maecenas lacinia eleifend leo, sit amet mollis diam vestibulum vehicula. Suspendisse ullamcorper, arcu tempus ullamcorper luctus, sapien lectus tempor sem, eget mattis ipsum est in erat. In ut finibus nisi. Aliquam at tincidunt elit. Integer bibendum laoreet diam sed aliquam. Suspendisse gravida malesuada urna, vehicula sodales massa vestibulum non.
+        Donec vitae porta risus. Vestibulum imperdiet erat ut dui tempus eleifend. Vestibulum tempor sagittis odio, laoreet consectetur mi eleifend nec. Ut pellentesque blandit sem. Proin commodo tincidunt risus a rutrum. Etiam eu mi vitae nunc volutpat feugiat. Pellentesque non consequat tellus, vitae blandit neque. Suspendisse potenti. Mauris consectetur viverra dui vel faucibus. Integer in mauris id neque blandit semper.
+        Nulla in sapien neque. In maximus justo vel felis convallis condimentum. Mauris eu urna id massa venenatis sagittis. Nulla convallis magna quis scelerisque aliquet. Quisque vitae lacus quis justo convallis blandit vitae non risus. Integer quis malesuada mauris. Vestibulum vestibulum tortor at dui vehicula lacinia. Nunc tempor lobortis aliquet. Sed lacinia, enim quis auctor bibendum, justo lectus consectetur mi, ut posuere velit sapien sit amet libero. Aenean facilisis nisl et orci fermentum, vel placerat tortor lacinia. Sed congue ante est. Fusce eget magna et erat aliquam congue. Nunc eget neque vitae enim dapibus dictum sed vitae erat. In efficitur, massa rutrum convallis consequat, felis justo sodales augue, et accumsan nibh nulla sed velit. Sed id arcu et nunc mollis ullamcorper.
+        Mauris posuere sem eu nulla blandit, id malesuada velit volutpat. Mauris a vulputate elit. Morbi pharetra tortor quis odio cursus, quis dictum odio sagittis. Vestibulum viverra tempus nibh vel luctus. Sed metus ex, dapibus vulputate tellus vel, aliquet efficitur justo. Curabitur scelerisque urna vitae dignissim ornare. Donec congue dolor et magna ultricies, porta laoreet turpis imperdiet. Suspendisse eu dolor sollicitudin, convallis lorem vel, rhoncus libero. Sed a vestibulum ex. Curabitur vestibulum ipsum purus, nec fermentum ipsum vehicula sed. Mauris quis pellentesque ligula. Sed et turpis ac est tempor bibendum sit amet et tellus. Nunc laoreet egestas arcu ut rhoncus. Fusce et congue sem.
+        Quisque lobortis mollis venenatis. Quisque eu pulvinar nulla. Morbi urna libero, elementum ac viverra a, finibus id libero. Mauris ut sapien tempor, tincidunt urna eget, varius elit. Pellentesque non aliquet mauris. Mauris non velit interdum quam mattis venenatis vel at sem. Nam sit amet suscipit ipsum, et egestas erat. Quisque a congue sem. Duis imperdiet massa vitae ornare efficitur. Sed tincidunt mattis mi non sodales. Vestibulum eu risus lacinia, laoreet ante in, molestie est. Fusce congue, erat sit amet congue molestie, erat ligula fermentum velit, ac bibendum lacus mauris sit amet metus. Donec lobortis consequat ultrices. Vestibulum mi nibh, vehicula vel ex eu, mollis porttitor mauris. Aenean in iaculis justo, eget ultricies elit. Nunc sit amet scelerisque ligula.
+        In facilisis porttitor odio a volutpat. Maecenas malesuada sapien feugiat elit commodo egestas. Nam quis congue nulla. Quisque augue libero, bibendum id ex nec, ornare tincidunt purus. Curabitur varius lorem vel ante viverra, in pulvinar ante rutrum. Mauris nec hendrerit sapien. Duis a pretium justo, vel feugiat risus.
+        Vivamus consequat vulputate nunc nec cursus. Curabitur eget gravida enim, nec efficitur leo. Suspendisse potenti. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eget est vitae purus volutpat ultricies. Vestibulum vel vulputate felis, id tempus dolor. Nunc sit amet lorem magna. In rhoncus augue at nulla vestibulum, eu malesuada purus interdum.
+        Nulla et ipsum dapibus, bibendum purus vitae, vulputate arcu. Aenean cursus ut nisi pharetra placerat. Mauris ultrices sodales ante. Donec aliquet finibus neque. Nulla eget vulputate nulla. Aliquam congue est enim, in accumsan libero aliquam ac. Sed vestibulum, ipsum vitae feugiat consectetur, ex neque scelerisque eros, id facilisis lacus felis id tellus. Pellentesque dignissim, ex et faucibus porttitor, nibh arcu porttitor est, non consequat diam felis vel dui. Curabitur libero ante, rhoncus quis pulvinar nec, commodo sit amet tortor. Integer maximus turpis finibus quam eleifend eleifend. Fusce quis odio pellentesque, lacinia urna quis, consectetur sem.
+        Nulla auctor, augue at pretium pharetra, risus dui porttitor urna, eu hendrerit libero dolor a quam. Curabitur tempus euismod enim rutrum tincidunt. Nunc mollis consequat leo, vel interdum ligula laoreet nec. Vivamus orci lorem, maximus ac blandit vel, bibendum pulvinar velit. Vestibulum id tortor eget ex luctus interdum mattis a elit. Nulla nunc nunc, gravida luctus diam sed, ultrices consequat elit. Donec vel placerat augue. Pellentesque vel purus tincidunt, feugiat lorem sed, mattis tellus. Praesent tortor quam, vulputate ac arcu non, volutpat consectetur urna. Morbi vehicula lorem neque, sit amet dignissim leo lacinia eget.
+        Phasellus a turpis nisl. Pellentesque id rhoncus ex. Donec eleifend commodo dui, a dapibus erat consectetur ac. Proin dapibus feugiat enim ultrices finibus. Pellentesque et mauris tellus. Duis finibus nisl nunc, non pellentesque tortor commodo quis. Morbi dapibus ex in lorem sagittis iaculis vitae sit amet odio. Nunc tempor massa erat, ut hendrerit neque malesuada non. Aenean viverra tristique pretium. Duis eleifend neque vitae leo porta vehicula finibus et ipsum. Pellentesque at magna orci. Sed vitae urna vel sem mollis dignissim ac eu erat. Maecenas vehicula metus gravida mattis pharetra. Duis egestas neque mollis tempor viverra.
+        In pulvinar odio nisi, eget semper leo lacinia vel. Etiam rhoncus est eu nunc posuere bibendum. Donec laoreet diam mi, ac sollicitudin tortor dapibus vitae. Curabitur viverra, augue sollicitudin fringilla volutpat, est sem fermentum mauris, euismod scelerisque enim lorem ac massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus porttitor id sapien at facilisis. Mauris porta ante a sollicitudin eleifend. In hac habitasse platea dictumst. Praesent semper tempor tortor sit amet ornare. Nam eu ligula et diam ultricies tincidunt vel tincidunt nisi. Pellentesque auctor, augue eget ornare convallis, justo dui bibendum massa, eget euismod nibh urna eu justo. Nullam nisl mi, interdum sit amet tempus a, faucibus a elit. Nullam bibendum sem quis odio ornare ultrices.
+    </string>
+
+    <string name="default_web_client_id" translatable="false">webClientId.apps.googleusercontent.com</string>
+    <string name="upload_ktm">Upload a picture your student card with your face.</string>
+    <string name="verif_ktm">Verification First</string>
+    <string name="next">Process\n</string>
+    <string name="take_picture">Take a picture now</string>
+    <string name="inf">*Make sure your face and cards are visible clearly..</string>
+
+
+</resources>

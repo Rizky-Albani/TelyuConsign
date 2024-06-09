@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/verif_ktm"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_ktm"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+    <ImageView
+        android:id="@+id/previewImageView"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_300sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:contentDescription="@string/preview_image_view" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="@string/inf"
+        android:textColor="#FF0000"
+        android:textSize="15sp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/button_pick_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/gray"
+        android:text="@string/take_picture" />
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/gray"
+        android:text="@string/next" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+
+
+
+</LinearLayout>

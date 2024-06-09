@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:backgroundTint="#000"
+    android:gravity="center"
+    tools:context=".logreg.LoginActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_signIn"
+        android:textSize="30sp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_detail_signIn"
+        android:textSize="15sp"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"/>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="7dp">
+
+
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:text="@string/email"-->
+<!--                android:textSize="15sp" />-->
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailTextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <org.d3ifcool.telyuconsign.ui.customView.EmailEditText
+                    android:id="@+id/emailEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginBottom="20dp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:text="@string/password"-->
+<!--                android:textSize="15sp" />-->
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/passwordTextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <org.d3ifcool.telyuconsign.ui.customView.PasswordEditText
+                    android:id="@+id/passwordEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:inputType="textPassword"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/forgotPasswordTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/forgot_password"
+                android:textSize="15sp"
+                android:gravity="right"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/gray"
+                tools:ignore="RtlHardcoded" />
+
+            <org.d3ifcool.telyuconsign.ui.customView.CustomButton
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/btn_login" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/don_t_have_account"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/signUpTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/sign_up"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:textColor="@color/blue"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/gray"/>
+
+    <Button
+        android:id="@+id/new_googlebtn"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@drawable/tp_bg_button_bordered"
+        android:backgroundTint="@color/white"
+        android:text="@string/google_login"
+        android:textColor="@color/black"
+        app:icon="@drawable/google_icon"
+        app:iconGravity="textStart"
+        app:iconPadding="10dp"
+        app:iconTint="#00100D0D"
+        app:iconTintMode="src_atop" />
+
+    <TextView
+        android:id="@+id/skipForNowTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skip_for_now"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/gray"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

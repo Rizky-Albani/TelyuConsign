@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "499250072122",
+    "firebase_url": "https://telyuconsignment-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "telyuconsignment",
+    "storage_bucket": "telyuconsignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499250072122:android:e3322312f0133653fac303",
+        "android_client_info": {
+          "package_name": "org.d3ifcool.telyuconsign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499250072122-8hd2rme65ddh5j539nvsnad8foe02s6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.d3ifcool.telyuconsign",
+            "certificate_hash": "5dab86db073b31605caaa6661bd79322bc892437"
+          }
+        },
+        {
+          "client_id": "499250072122-q2vnjbr9d7ff10a5e8gbn73jlsakiuce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa6tzplTRljmiRpK7GMKsVtTt_CBvgMuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499250072122-q2vnjbr9d7ff10a5e8gbn73jlsakiuce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
